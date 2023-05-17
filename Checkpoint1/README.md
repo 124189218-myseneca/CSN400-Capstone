@@ -17,18 +17,37 @@
 
 ## My image
 This is my image
+<img src="beautiful-wallpaper-1-beautiful-pictures-38538866-2560-1600.jpg" alt="Wallpaper" title="Wallpaper">
 
 
 ## My Single line code snippet
-This is my code snippet
+My single line code snippet is `print("Hello, world!")`
+
 
 
 ## My Multi line code snippet
-This is my code snippet
+My multi line code snippet is
+```bash
+#!/bin/bash
+
+# This script prints the current date and time
+echo "Current date and time:"
+date
+
+# Get the username of the current user
+username=$(whoami)
+echo "Username: $username"
+
+# List all files in the current directory
+echo "Files in current directory:"
+ls
+
+
+```
 
 
 ## My Sample json object
-These are my json object
+This is my json object
 
 
 
