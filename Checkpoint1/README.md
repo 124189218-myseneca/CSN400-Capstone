@@ -1,6 +1,6 @@
 # checkpoint 1 Submission
 
-- **COURSE INFORMATION: CSN400**
+- **COURSE INFORMATION: CSN400NDD**
 - **STUDENT’S NAME: Ashwin Dhingra**
 - **STUDENT'S NUMBER: 124189218**
 - **GITHUB USER_ID: 124189218-myseneca**
@@ -79,6 +79,10 @@ This is my json object
 
 ## My Sample table
 This is my sample table
+|    Name       | Department     |   Email          |       
+| ------------- | -------------- | ---------------- |
+| Rohan Roy     | Marketing      | rrrk32@bb.com    |
+| Chloe Inkster | Human Resource | chloe21@bb.com   |
 
 
 ## My Sample hyperlink
