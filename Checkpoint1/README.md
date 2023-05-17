@@ -16,7 +16,8 @@
 6. [My Sample hyperlink](#my-sample-hyperlink)
 
 ## My image
-This is my image
+This is my image:
+
 <img src="beautiful-wallpaper-1-beautiful-pictures-38538866-2560-1600.jpg" alt="Wallpaper" title="Wallpaper">
 
 
@@ -26,7 +27,8 @@ My single line code snippet is `print("Hello, world!")`
 
 
 ## My Multi line code snippet
-My multi line code snippet is
+My multi line code snippet is:
+
 ```bash
 #!/bin/bash
 
@@ -47,7 +49,8 @@ ls
 
 
 ## My Sample json object
-This is my json object
+This is my json object:
+
 ```json
 {
   "employee_id": "E12345",
