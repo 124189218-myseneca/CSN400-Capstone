@@ -82,9 +82,9 @@ This is my sample table:
 
 |    Name       | Department     |   Email          |       
 | ------------- | -------------- | ---------------- |
-| Rohan Roy     | Testing        | rrrk32@bb.com    |
-| Chloe Inkster | Human Resource | chloe21@bb.com   |
-
+| Rohan Roy     | Operations     | rroy132@bb.com    |
+| Chloe Inkster | Legal          | chloe21@bb.com   |
+| Jose labrador | Finance        | josel33@bb.com   |
 
 ## My Sample hyperlink
 This hyperlink directs to the NASA website's section on exploring the universe:
