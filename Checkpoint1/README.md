@@ -48,6 +48,32 @@ ls
 
 ## My Sample json object
 This is my json object
+```json
+{
+  "employee_id": "E12345",
+  "name": "Darrel Sheets",
+  "department": "Engineering",
+  "skills": ["Python", "JavaScript", "Java"],
+  "address": {
+    "street": "123 Main St",
+    "city": "Nashville",
+    "state": "Tennessee",
+    "country": "USA"
+  },
+  "projects": [
+    {
+      "name": "Project A",
+      "role": "Developer"
+    },
+    {
+      "name": "Project B",
+      "role": "Tester"
+    }
+  ],
+  "is_active": true
+}
+
+```
 
 
 
