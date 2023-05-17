@@ -78,7 +78,8 @@ This is my json object
 
 
 ## My Sample table
-This is my sample table
+This is my sample table:
+
 |    Name       | Department     |   Email          |       
 | ------------- | -------------- | ---------------- |
 | Rohan Roy     | Testing        | rrrk32@bb.com    |
@@ -86,7 +87,7 @@ This is my sample table
 
 
 ## My Sample hyperlink
-This is my hyperlink:
+This hyperlink directs to the NASA website's section on exploring the universe:
 
 **[Explore the Universe](https://www.nasa.gov/topics/solarsystem/index.html)**
 
