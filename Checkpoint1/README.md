@@ -18,7 +18,7 @@
 ## My image
 This is my image:
 
-<img src="beautiful-wallpaper-1-beautiful-pictures-38538866-2560-1600.jpg" alt="Wallpaper" title="Wallpaper">
+<img src="Checkpoint1/Screenshot (73).png" alt="Wallpaper" title="Wallpaper">
 
 
 ## My Single line code snippet
