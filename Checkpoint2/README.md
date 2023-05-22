@@ -33,3 +33,6 @@ This picture show the output of git log and git status commands. Log commands sh
 
 
 <img src="Screenshot (74).png" alt="image" title="image">
+
+## Part C - Creating & Merging Branches
+
