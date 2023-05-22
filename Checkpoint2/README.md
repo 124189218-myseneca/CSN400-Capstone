@@ -36,3 +36,38 @@ This picture show the output of git log and git status commands. Log commands sh
 
 ## Part C - Creating & Merging Branches
 
+### Output of 'git log -n 5'
+```bash
+Ashwin dhingra@LAPTOP-75PU76M6 MINGW64 /c/CSN400-Git-project/CSN400-Capstone (main)
+$ git log -n 5
+commit 11170399f4846469ebeadb31ee87094b8a97638b (HEAD -> main, origin/main, origin/feat-emojis, origin/HEAD, feat-emojis)
+Author: Ashwin Dhingra local <adhingra12@myseneca.ca>
+Date:   Mon May 22 17:59:44 2023 -0400
+
+    adds emojis to feat-emojis branch
+
+commit cd1f99f98e495facbb8c48c83f9a662ea458e71d
+Author: Ashwin Dhingra local <adhingra12@myseneca.ca>
+Date:   Mon May 22 17:49:14 2023 -0400
+
+    adds folder footnotes
+
+commit 34b5f8ebe88fd4979e935d425b94474a3602951e
+Author: Ashwin Dhingra local <adhingra12@myseneca.ca>
+Date:   Mon May 22 17:26:32 2023 -0400
+
+    modified headers
+
+commit 85379b513ed186890647637469673c85b0badea0
+Author: Ashwin Dhingra local <adhingra12@myseneca.ca>
+Date:   Mon May 22 17:17:55 2023 -0400
+
+    Adds checkpoint - Part 2
+
+commit 65f4db025e041230db8cff4ca570bb8265c537e2
+Author: Ashwin Dhingra local <adhingra12@myseneca.ca>
+Date:   Mon May 22 16:52:12 2023 -0400
+
+    Adds Part A
+
+```
