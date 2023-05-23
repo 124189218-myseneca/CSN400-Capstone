@@ -71,3 +71,37 @@ Date:   Mon May 22 16:52:12 2023 -0400
     Adds Part A
 
 ```
+
+## Part D - Git Branching Strategy Review Questions
+
+1. What are the differences between develop branch and main branch?
+
+Answer-
+Main branch: This is the primary branch in git which is also known master. It typically includes the most recent stable codebase version that is prepared for deployment.
+
+Develop branch functions as an internal integration branch where different features, bug fixes, and other development modifications are put together and validated before merging into the primary code. Developers working on various features or tasks frequently split off branches  to work on their modifications and then merge those branches back into develop after completion.
+
+
+2. What are the three supporting branches? Briefly describe the function of each of these supporting branches.
+
+Answer - There are three types of branches in git called feature, release and hotfix.
+
+Feature branches: New features and functionality are developed via feature branches. feature branches allow each feature to be developed independently on its own branch, developers can work on multiple features at once and it gets merged back into the develop branch after a feature is finished. When developing features, feature branches allow for productive collaboration while still providing isolation. 
+
+Release branches: When the development team is getting ready to release a new version, release branches are generated from the develop branch. These branches make it possible to complete final testing, bug fixes, and other release-related work without interfering with active development. The release branch is merged into the develop and main branches after completion of the release. 
+
+Hotfix branches: In the production environment, hotfix branches are implemented to address urgently needed serious problems or faults. They are built from the main branch to find and address the issue without interfering with ongoing development on the develop branch.
+
+3. What are the best practices in working with release branches?
+
+Answer: Some best practices for release branches are: 
+
+For all new features and bug fixes, use feature branches.
+
+Utilise pull requests to merge feature branches into the main branch.
+
+Keep a high quality, up-to-date main branch.
+
+Set up an effective versioning strategy for your releases. 
+
+Test the release thoroughly to guarantee stability before merging the release branch into the main branch.
