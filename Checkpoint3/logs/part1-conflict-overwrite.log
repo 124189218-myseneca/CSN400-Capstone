@@ -1,0 +1,6 @@
+POST git-receive-pack (10658 bytes)
+remote: Resolving deltas:   0% (0/7)        remote: Resolving deltas:  14% (1/7)        remote: Resolving deltas:  28% (2/7)        remote: Resolving deltas:  42% (3/7)        remote: Resolving deltas:  57% (4/7)        remote: Resolving deltas:  71% (5/7)        remote: Resolving deltas:  85% (6/7)        remote: Resolving deltas: 100% (7/7)        remote: Resolving deltas: 100% (7/7), completed with 1 local object.        
+Pushing to https://github.com/124189218-myseneca/CSN400-Capstone.git
+To https://github.com/124189218-myseneca/CSN400-Capstone.git
+ + 660908a...6b945f1 main -> main (forced update)
+updating local tracking ref 'refs/remotes/origin/main'
