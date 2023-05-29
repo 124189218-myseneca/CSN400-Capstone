@@ -1,0 +1,12 @@
+POST git-upload-pack (196 bytes)
+From https://github.com/124189218-myseneca/CSN400-Capstone
+ = [up to date]      main        -> origin/main
+ = [up to date]      feat-emojis -> origin/feat-emojis
+Updating 6b945f1..9a86d74
+Fast-forward
+ Checkpoint3/conflict-resolution/index.html    | 2 +-
+ Checkpoint3/logs/part1-conflict-error.log     | 9 +++++++++
+ Checkpoint3/logs/part1-conflict-overwrite.log | 6 ++++++
+ 3 files changed, 16 insertions(+), 1 deletion(-)
+ create mode 100644 Checkpoint3/logs/part1-conflict-error.log
+ create mode 100644 Checkpoint3/logs/part1-conflict-overwrite.log
