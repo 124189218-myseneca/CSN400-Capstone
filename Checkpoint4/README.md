@@ -13,50 +13,50 @@
 4. [Part D - Publish your images](#Part-D---Publish-your-images)
 
 ##  Part A - Working with Docker Desktop
-#
 
- Step1
+
+ Step1: Set up the guide
 
  <img src="Screenshots/Part-A/Screenshot-1.png">
 
- Step-2
+ Step-2: View containers on Docker Desktop
 
  <img src="Screenshots/Part-A/Screenshot-2.png">
 
- Step-3
+ Step-3: View the frontend
 
  <img src="Screenshots/Part-A/Screenshot-3.png">
 
- Step-4
+ Step-4: Explore your container
 
  <img src="Screenshots/Part-A/Screenshot-4.png">
 
- Step-5
+ Step-5: Stop your container
 
  <img src="Screenshots/Part-A/Screenshot-5.png">
 
 ##  Part B - Run Your own container
-#
 
-Step1
+
+Step1 : Get the sample application
 
  <img src="Screenshots/Part-B/Screenshot-1.png">
 
- Step-2
+ Step-2: Explore the Dockerfile
 
  <img src="Screenshots/Part-B/Screenshot-2.png">
 
- Step-3
+ Step-3: Build your first image
 
  <img src="Screenshots/Part-B/Screenshot-3.png">
 
- Step-4
+ Step-4: Run your container
 
  <img src="Screenshots/Part-B/Screenshot-4.png">
 
 
 ##  Part C - Run Docker Hub Image
-#
+
 
 Step1
 
@@ -72,7 +72,7 @@ Step1
 
 
 ##  Part D - Publish your images
-#
+
 Step1
 
  <img src="Screenshots/Part-D/Screenshot-1.png">
