@@ -73,3 +73,15 @@ Step1
 
 ##  Part D - Publish your images
 #
+Step1
+
+ <img src="Screenshots/Part-D/Screenshot-1.png">
+
+ Step-2
+
+ <img src="Screenshots/Part-D/Screenshot-2.png">
+
+ Step-3
+
+ <img src="Screenshots/Part-D/Screenshot-3.png">
+
