@@ -41,3 +41,22 @@
 
  <img src="Screenshots/Screenshot-2.png">
 
+
+
+## ✨ Part C - Persist the DB
+
+### output of docker volume inspect todo-db
+>> 
+[
+    {
+        "CreatedAt": "2023-06-11T22:30:25Z",
+        "Driver": "local",
+        "Labels": null,
+        "Mountpoint": "/var/lib/docker/volumes/todo-db/_data",
+        "Name": "todo-db",
+        "Options": null,
+        "Scope": "local"
+    }
+]
+
+## ✨ Part D - Multi container apps
