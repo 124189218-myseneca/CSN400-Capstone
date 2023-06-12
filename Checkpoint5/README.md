@@ -60,3 +60,52 @@
 ]
 
 ## ✨ Part D - Multi container apps
+
+### mysql> SHOW DATABASES;
+
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
+| sys                |
+| todos              |
++--------------------+
+5 rows in set (0.00 sec)
+
+
+### dig mysql
+
+2c7d5baf3b7e  ~  dig mysql
+
+; <<>> DiG 9.18.13 <<>> mysql
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 46559
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;mysql.                         IN      A
+
+;; ANSWER SECTION:
+mysql.                  600     IN      A       172.18.0.2
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.11#53(127.0.0.11) (UDP)
+;; WHEN: Sun Jun 11 22:53:53 UTC 2023
+;; MSG SIZE  rcvd: 44
+
+
+### mysql> SELECT * from todo_items;
+
+mysql> select * from todo_items;
++--------------------------------------+----------------+-----------+
+| id                                   | name           | completed |
++--------------------------------------+----------------+-----------+
+| 98b7bbde-10c6-4eab-a68a-6063bf2ace49 | repository     |         0 |
+| eee06b80-44a6-49f5-8e07-f7960ce0306a | butter chicken |         0 |
+| da3e5988-2e64-439c-af87-647dc63e36c0 | Taxes          |         0 |
++--------------------------------------+----------------+-----------+
+3 rows in set (0.00 sec)
