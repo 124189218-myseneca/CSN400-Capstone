@@ -31,3 +31,13 @@
 - **Question9:** Repeat all the step for app update for: `<p className="text-center">What tasks no to do for CSN400 yet! Add one above!</p>` and embed a screenshot of your app in your submission.
 
 
+## ✨ Part B - Share the application
+
+### DockerHub 
+
+ <img src="Screenshots/Screenshot-1.png">
+ 
+ ### Port number and deployed app
+
+ <img src="Screenshots/Screenshot-2.png">
+
