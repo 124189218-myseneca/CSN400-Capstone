@@ -29,7 +29,7 @@
 - **Question7:** How long did it take to create the image after you updated the code? It is still shorter than the first time you did it, why?
 - **Question8:** What is the error message you get when you try to run the app container? Embed the error in your submission and explain why do you get this error at all?
 - **Question9:** Repeat all the step for app update for: `<p className="text-center">What tasks no to do for CSN400 yet! Add one above!</p>` and embed a screenshot of your app in your submission.
-
+<img src="Screenshots/Screenshot-2.png">
 #
 
 ## ✨ Part B - Share the application
@@ -40,7 +40,7 @@
  
  ### Port number and deployed app
 
- <img src="Screenshots/Screenshot-2.png">
+ <img src="Screenshots/Screenshot-3.png">
 
 
 #
