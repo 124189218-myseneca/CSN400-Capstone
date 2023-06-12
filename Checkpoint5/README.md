@@ -30,6 +30,7 @@
 - **Question8:** What is the error message you get when you try to run the app container? Embed the error in your submission and explain why do you get this error at all?
 - **Question9:** Repeat all the step for app update for: `<p className="text-center">What tasks no to do for CSN400 yet! Add one above!</p>` and embed a screenshot of your app in your submission.
 
+#
 
 ## ✨ Part B - Share the application
 
@@ -42,11 +43,12 @@
  <img src="Screenshots/Screenshot-2.png">
 
 
+#
 
 ## ✨ Part C - Persist the DB
 
 ### output of docker volume inspect todo-db
->> 
+```bash
 [
     {
         "CreatedAt": "2023-06-11T22:30:25Z",
@@ -58,11 +60,13 @@
         "Scope": "local"
     }
 ]
+```
+#
 
 ## ✨ Part D - Multi container apps
 
 ### mysql> SHOW DATABASES;
-
+```bash
 mysql> show databases;
 +--------------------+
 | Database           |
@@ -74,10 +78,10 @@ mysql> show databases;
 | todos              |
 +--------------------+
 5 rows in set (0.00 sec)
-
+```
 
 ### dig mysql
-
+```bash
 2c7d5baf3b7e  ~  dig mysql
 
 ; <<>> DiG 9.18.13 <<>> mysql
@@ -96,10 +100,10 @@ mysql.                  600     IN      A       172.18.0.2
 ;; SERVER: 127.0.0.11#53(127.0.0.11) (UDP)
 ;; WHEN: Sun Jun 11 22:53:53 UTC 2023
 ;; MSG SIZE  rcvd: 44
-
+```
 
 ### mysql> SELECT * from todo_items;
-
+```bash
 mysql> select * from todo_items;
 +--------------------------------------+----------------+-----------+
 | id                                   | name           | completed |
@@ -109,3 +113,4 @@ mysql> select * from todo_items;
 | da3e5988-2e64-439c-af87-647dc63e36c0 | Taxes          |         0 |
 +--------------------------------------+----------------+-----------+
 3 rows in set (0.00 sec)
+```
