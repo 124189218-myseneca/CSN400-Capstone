@@ -15,7 +15,7 @@
 
 
 
-## ✨ Part A - Containerize an application
+## Part A - Containerize an application
 
 - **Question1:** If you run `docker build -t getting-started .` for a second time, the build time will be different from first time, why? Why the number of steps are also different? Explain your answers in detail.
 ```
@@ -149,7 +149,7 @@ Answer-
 <img src="Screenshots/Screenshot-1.png">
 
 
-## ✨ Part B - Share the application
+## Part B - Share the application
 
 ### DockerHub 
 
@@ -161,7 +161,7 @@ Answer-
 
 
 
-## ✨ Part C - Persist the DB
+## Part C - Persist the DB
 
 ### output of docker volume inspect todo-db
 ```bash
@@ -179,7 +179,7 @@ Answer-
 ```
 
 
-## ✨ Part D - Multi container apps
+## Part D - Multi container apps
 
 ### mysql> SHOW DATABASES;
 ```bash
