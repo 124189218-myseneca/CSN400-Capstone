@@ -8,10 +8,10 @@
 
 
 ### Table of Contents
-1. [Part A - Containerize an application](#Part-A--Containerize-an-application)
-2. [Part B - Share the application](#Part-B--Share-the-application)
-3. [Part C - Persist the DB](Part-C--Persist-the-DB)
-4. [Part D - Multi container apps](#Part-D--Multi-container-apps)
+1. [Part A - Containerize an application](#Part-A---Containerize-an-application)
+2. [Part B - Share the application](#Part-B---Share-the-application)
+3. [Part C - Persist the DB](Part-C---Persist-the-DB)
+4. [Part D - Multi container apps](#Part-D---Multi-container-apps)
 
 
 
@@ -19,7 +19,10 @@
 
 - **Question1:** If you run `docker build -t getting-started .` for a second time, the build time will be different from first time, why? Why the number of steps are also different? Explain your answers in detail.
 ```
-Answer - The number of steps in a series of docker build commands can change as a result of layer caching, cache invalidation brought on by modifications to files or instructions, changes to the Dockerfile, and dependency updates. By reusing layers, Docker's caching system seeks to streamline the build process.However, changes to any of these parameters may result in variations in the build time and the number of steps required.
+Answer - The number of steps in a series of docker build commands can change as a result of layer caching, cache invalidation
+ brought on by modifications to files or instructions, changes to the Dockerfile, and dependency updates. 
+ By reusing layers, Docker's caching system seeks to streamline the build process.However, changes to any of these parameters may result 
+ in variations in the build time and the number of steps required.
 
 ```
 
@@ -35,7 +38,10 @@ Start a build
 ```
 - **Question3:** Run `docker build -t getting-started .` a few times and then run `docker image ls` to get the list of your images, why do you still one image listed even though you have tried building image many times?
 ```
-Answer - we can only see one image even after multiple attempts of building as we used the same files and layers each time and nothing was changed. docker has a feature called layer caching which comes into if most of the files are same and only slight changes are done. docker then updates the new requirements and reuses the previous files to optimize the use of disk space and decreases the build time significantly.
+Answer - we can only see one image even after multiple attempts of building as we used the same files and layers each 
+time and nothing was changed. docker has a feature called layer caching which
+ comes into if most of the files are same and only slight changes are done. 
+ Docker then updates the new requirements and reuses the previous files to optimize the use of disk space and decreases the build time significantly.
 
 ```
 
@@ -122,7 +128,9 @@ CONTAINER ID   IMAGE             COMMAND                  CREATED        STATUS 
 
 - **Question7:** How long did it take to create the image after you updated the code? It is still shorter than the first time you did it, why?
 ```
-Answer - It took around 4.1 seconds to build the new container which is less than the previous build because most of the required files and layers were reused by docker with a feature called layer caching and the machine only needed to configure the new requirements this time.
+Answer - It took around 4.1 seconds to build the new container which is less than the previous build because most of the required 
+files and layers were reused by docker with a feature called layer caching and 
+the machine only needed to configure the new requirements this time.
 ```
 
 - **Question8:** What is the error message you get when you try to run the app container? Embed the error in your submission and explain why do you get this error at all?
