@@ -56,6 +56,23 @@
 
 ## Part C - Network Review Questions
 
+```
 
+1. What is Azure Virtual Network (VNET)? Elaborate in your own words, you may use diagrams if drawn by yourself.
+
+2. In the context of Hybrid Cloud architecture. How on-prem computers can access resources inside Azure virtual network?
+
+3. What are the most important benefits of Azure Virtual Networks? Elaborate in your own words. Do not copy/paste from Azure Documentation. Itemized list of just benefit without proper elaboration will not receive any marks
+
+4. What is the difference between Network Security Group (NSG) and Route-Tables?
+
+5. What is the difference between NSG and Firewalls?
+
+6. What is a hob-and-spoc network topology and how be deployed in Azure Cloud?
+
+7. In working with Azure VNETs, do you need o to define gateways for Azure to route traffic between subnets?
+When do you need to configure and use Virtual Network Gateways?
+
+```
 
 ## Part D - Creating Virtual Machines using Azure CLI
