@@ -76,3 +76,16 @@ When do you need to configure and use Virtual Network Gateways?
 ```
 
 ## Part D - Creating Virtual Machines using Azure CLI
+
+```
+1. List all VMs and send the output in table format to vm_list.tbl file. What command did you use?
+
+2. Get the details of your WC-99 using az show command and send the output in json format to WC-99-details.json file. What command did you use?
+
+3. List all NSG using az list command and send the output in table format to nsg_list.tblfile. What command did you use?
+
+4. List all VMs after running delete_all_vm.sh with the output in table format. What command did you use? How can you ensure all your VMs are deleted?
+
+5.Provide screenshot of auto shutdown configuration for LS_XX. Is there any command to show this? What is the time-zone? What should be the correct time settings considering the time zone differences?
+
+```
