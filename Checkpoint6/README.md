@@ -17,6 +17,50 @@
 ## Part A - Creating Network Resources using Azure CLI
 
 ### Output 
+```
+UPDATED LINES
+
+Configurations:
+RG_NAME: Student-RG-954430
+LOCATION: canadacentral
+ID: 106
+
+---------------------------------------------------
+Networking - Virtual Networks
+
+Student_vnet_name: Student-954430-vnet
+Router_vnet_name: Router-106
+Server_vnet_name: Server-106
+Student_vnet_address: 10.31.124.0/24
+Router_vnet_address: 192.168.106.0/24
+Server_vnet_address: 172.17.106.0/24
+
+--------------------------------------------
+
+
+
+MAIN OUTPUT 
+RT_Name: RT-106
+---------------------------------------------------
+Networking - Route Tables - Routes
+
+Route-to-Server
+Route-to-Desktop
+---------------------------------------------------
+Checking status for Resource Group: Student-RG-954430
+exists!
+Resource groups:
+Name               Location       Status
+-----------------  -------------  ---------
+Bastion_RG         canadacentral  Succeeded
+NetworkWatcherRG   canadacentral  Succeeded
+Student-RG-954430  canadacentral  Succeeded
+
+---------------------------------------------------
+Network Config Test Ended without error!
+END!
+---------------------------------------------------
+```
 
 ### Questions/ Answers
 ```
@@ -68,6 +112,21 @@ az network vnet subnet create \
 3. List all peerings using az network vnet peering list command and send the output in table format to peerings.tblfile
 
 4. Get the details of your Router-XX subnet SN1 using az show command in json format and query it for details of subnet and rout associations. Only submit the specific property you are asked for. You will need to embed this in your README.md as per instructions.
+
+Answer - 
+{
+  "addressPrefix": "192.168.106.32/27",
+  "delegations": [],
+  "etag": "W/\"6277885c-bfcb-4b4e-bfea-b4a18fb5fd3b\"",
+  "id": "/subscriptions/71d310bf-1718-4d11-87d1-99a7d4e2053f/resourceGroups/Student-RG-954430/providers/Microsoft.Network/virtualNetworks/Router-106/subnets/SN1",
+  "name": "SN1",
+  "privateEndpointNetworkPolicies": "Disabled",
+  "privateLinkServiceNetworkPolicies": "Enabled",
+  "provisioningState": "Succeeded",
+  "resourceGroup": "Student-RG-954430",
+  "type": "Microsoft.Network/virtualNetworks/subnets"
+}
+
 
 5. List all routes in RT-xx using az network route-table route list command and send the output in table format to route_list.tblfile
 
