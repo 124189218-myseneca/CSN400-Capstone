@@ -21,12 +21,37 @@
 ### Questions/ Answers
 ```
 1. In network_config_test.sh what does if [[ ! $(az group list -o tsv --query "[?name=='$RG_NAME']") ]] do? Explain your answer.
+Answer 1 - This command is used to check if the specified resource group '$RG_NAME' exists. 
+'az group list' pulls up all the resource group
+'-o tsv' gets the output in a tabular form
+'--query "[?name=='$RG_NAME']"' filters the results only to specified name
 
 2. Why is it crucial to check if a resource exist before creating it? What bash syntax do you use to test this? How do you check if a vnet exits in vnet_create.sh?
+Answer 2 - To prevent conflicts or problems that may arise if a resource with the same name already exists, it is essential to determine whether it already exists before creating it. You can avoid accidentally adding identical resources or overwriting already-existing ones by performing an existence check.
 
 3. What is the Azure CLI command to create vnet? Give the specific command as per your environment and unique ID configuration. What are the required and what are the optional parameters that you need to pass to it?
+Answer 3- Use command 'az network vnet create'
+
+az network vnet create \
+  --name my-vnet-106 \
+  --resource-group my-resource-group \
+  --location eastus \
+  --address-prefixes 10.0.0.0/16 \
+
+  The optional parameters are subnets as azure automcatically creates subnet if they are not added.
+
+  --subnet-name my-subnet \
+  --subnet-prefix 10.0.0.0/24
+
 
 4. What is the Azure CLI command to create subnet? Give the specific command as per your environment and unique ID configuration. What are the required and what are the optional parameters that you need to pass to it?
+Answer 4 - 
+
+az network vnet subnet create \
+  --name my-subnet-106 \
+  --resource-group my-resource-group \
+  --vnet-name my-vnet-106 \
+  --address-prefixes 10.0.0.0/24
 
 
 ```
