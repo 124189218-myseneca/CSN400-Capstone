@@ -75,9 +75,18 @@ WS-106_OsDisk_1_66b80678095246b585c2e4fb97474627  STUDENT-RG-954430  canadacentr
 
 
 ## ✨ Part B - Enable IP_Forwarding - Using Portal
+```
+1. Check the status of ip-forwarding using the command az network nic ip-config show with output format as json. Include only the command not output including the --quey you used in your submission.
+Asnwer - az network nic ip-config show --name ipconfig1 --nic-name lr-106715_z1 --resource-group Student-RG-954430 --query "{IPForwarding: IPForwarding}" --output json
 
+2 .When your output format is json, which property shows the status of the ip-forwarding attribute? Embed only the property that shows the status of ip-forwarding.
+Answer -  
+{
+  "IPForwarding": null
+}
 
-
+Check if the IP forwarding in NIC is enabled using Azure bash. 👉 Hint: az network nic show -g <rg-name> -n <nic-name> --query "enableIpForwarding"
+```
 ## ✨ Part C - Basic Connectivity - VM Configuration
 
 
@@ -86,6 +95,14 @@ WS-106_OsDisk_1_66b80678095246b585c2e4fb97474627  STUDENT-RG-954430  canadacentr
 
 ## ✨ Part E - Azure Cost Analysis Charts
 
+| No. | Scope | Chart Type | VIEW Type |  Date Range | Group By | Granularity| Example |
+|-|-|-|-|-|-|-|-|
+|1|Student-RG-954430| Column (Stacked) | DailyCosts | Last 7 Days | Resource | Daily | <img src="./images/daily-cost-barchart.jpg" alt="Daily Cost Barchart" style="float: left; margin-right: 10px;" /> |
+|2|Student-RG-954430| Column (Stacked) | DailyCosts | Last 7 Days | Service | Daily | <img src="./images/daily-cost-service-barchart.jpg" alt="Daily Cost Service-Barchart.jpg" style="float: left; margin-right: 10px;" /> |
+|3|Student-RG-954430| Area| AccumulatedCosts | Last 7 Days | Resource | Accumulated | <img src="./images/accumulated-resource-barchart.jpg" alt="Accumulated Resource Barchart" style="float: left; margin-right: 10px;" /> |
+|4|Student-RG-954430| Pie Chart | NA | Last Month | Service Name | NA | <img src="./images/service-name-piechart.jpg" alt="Service Name Piechart" style="float: left; margin-right: 10px;" /> |
+|5|Student-RG-954430| Pie Chart | NA | Last Month | Service Family | NA | <img src="./images/service-family-piechart.jpg" alt="Service Family Piechart" style="float: left; margin-right: 10px;" /> |
+|6|Student-RG-954430| Pie Chart | NA | Last Month | Product | NA | <img src="./images/product-piechart.jpg" alt="Product Piechart" style="float: left; margin-right: 10px;" /> |
 
 
 ## ✨ Part F - Create Customized Azure Dashboard
