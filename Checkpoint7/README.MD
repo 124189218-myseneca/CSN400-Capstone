@@ -90,8 +90,10 @@ Check if the IP forwarding in NIC is enabled using Azure bash. 👉 Hint: az net
 ## Part C - Basic Connectivity - VM Configuration
 ```
 1. In configuring your Linux VMs, for the step "Remove the firewalld service", which command will you be using?
+Asnwer - sudo apt remove firewalld
+
 In configuring your Linux VMs, what command do you use to check the status of iptabels?
-answer - sudo apt remove firewalld
+answer - sudo iptables -t nat -L
 
 
 2. How can you make iptables service start automatically after reboot on CenOS/RHEL8? 👉 Hint: RHEL7: How to disable Firewalld and use Iptables instead
@@ -103,7 +105,13 @@ answer - sudo apt remove firewalld
 ```
 
 ## Part D - Creating & Configuring VM Images - Using Portal
+```
+This will delete all running VMs. You must make sure you can create VMs from these images. Find your way to image resource page in Azure Portal and for each of the images use Create VM function to create a new VM. Make sure you follow all the settings from part A.
 
+Run a command in CLI that lists all your Custom Images. Hint: az image list .... Change the output format to table format and embed the answer in your submission.
+Delete your VMs after your work is completed. Run a command in CLI that lists all your VMs. Hint: az vm list .... Change the output format to table format and embed the answer in your submission.
+Recreate all VMs from your images, and establish basic connectivity. How long the entire process took? How can you do this more efficiently?
+```
 
 ## Part E - Azure Cost Analysis Charts
 
