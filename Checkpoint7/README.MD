@@ -16,7 +16,7 @@
 6. [Part F - Create Customized Azure Dashboard](#Part-F---Create-Customized-Azure-Dashboard)
 
 
-## ✨ Part A - Creating & Configuring VMs - Using Portal
+## Part A - Creating & Configuring VMs - Using Portal
 ```
 1. What is the difference between Windows machine NSG and Linux machine NSG rules? Why? **Do not give screenshots** just describe the difference? Do you need a rule for `ssh` or `rdp`? What happens if you delete specific `ssh` and `rdp` rules?
 
@@ -74,7 +74,7 @@ WS-106_OsDisk_1_66b80678095246b585c2e4fb97474627  STUDENT-RG-954430  canadacentr
 
 
 
-## ✨ Part B - Enable IP_Forwarding - Using Portal
+## Part B - Enable IP_Forwarding - Using Portal
 ```
 1. Check the status of ip-forwarding using the command az network nic ip-config show with output format as json. Include only the command not output including the --quey you used in your submission.
 Asnwer - az network nic ip-config show --name ipconfig1 --nic-name lr-106715_z1 --resource-group Student-RG-954430 --query "{IPForwarding: IPForwarding}" --output json
@@ -87,13 +87,13 @@ Answer -
 
 Check if the IP forwarding in NIC is enabled using Azure bash. 👉 Hint: az network nic show -g <rg-name> -n <nic-name> --query "enableIpForwarding"
 ```
-## ✨ Part C - Basic Connectivity - VM Configuration
+## Part C - Basic Connectivity - VM Configuration
 
 
-## ✨ Part D - Creating & Configuring VM Images - Using Portal
+## Part D - Creating & Configuring VM Images - Using Portal
 
 
-## ✨ Part E - Azure Cost Analysis Charts
+## Part E - Azure Cost Analysis Charts
 
 | No. | Scope | Chart Type | VIEW Type |  Date Range | Group By | Granularity| Example |
 |-|-|-|-|-|-|-|-|
@@ -105,4 +105,6 @@ Check if the IP forwarding in NIC is enabled using Azure bash. 👉 Hint: az net
 |6|Student-RG-954430| Pie Chart | NA | Last Month | Product | NA | <img src="./images/product-piechart.jpg" alt="Product Piechart" style="float: left; margin-right: 10px;" /> |
 
 
-## ✨ Part F - Create Customized Azure Dashboard
+## Part F - Create Customized Azure Dashboard
+
+<img src="images/Dashboard-106.png" alt="dashbooard" title="image">
