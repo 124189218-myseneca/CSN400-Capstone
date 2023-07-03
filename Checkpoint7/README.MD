@@ -88,7 +88,17 @@ Answer -
 Check if the IP forwarding in NIC is enabled using Azure bash. 👉 Hint: az network nic show -g <rg-name> -n <nic-name> --query "enableIpForwarding"
 ```
 ## Part C - Basic Connectivity - VM Configuration
+```
+1. In configuring your Linux VMs, for the step "Remove the firewalld service", which command will you be using?
+In configuring your Linux VMs, what command do you use to check the status of iptabels?
+answer - sudo apt remove firewalld
 
+
+2. How can you make iptables service start automatically after reboot on CenOS/RHEL8? 👉 Hint: RHEL7: How to disable Firewalld and use Iptables instead
+
+3.Run a command in LR-xx that shows all iptables chains with their order number. What is the default setting? Include both the command and its output in your submission. How could you improve these settings to be less vulnerable to attacks?
+
+4. Run a command that shows the hostname in LR-XX and LX-XX. Embed the output in your submission.
 
 ## Part D - Creating & Configuring VM Images - Using Portal
 
@@ -97,12 +107,12 @@ Check if the IP forwarding in NIC is enabled using Azure bash. 👉 Hint: az net
 
 | No. | Scope | Chart Type | VIEW Type |  Date Range | Group By | Granularity| Example |
 |-|-|-|-|-|-|-|-|
-|1|Student-RG-954430| Column (Stacked) | DailyCosts | Last 7 Days | Resource | Daily | <img src="./images/daily-cost-barchart.jpg" alt="Daily Cost Barchart" style="float: left; margin-right: 10px;" /> |
-|2|Student-RG-954430| Column (Stacked) | DailyCosts | Last 7 Days | Service | Daily | <img src="./images/daily-cost-service-barchart.jpg" alt="Daily Cost Service-Barchart.jpg" style="float: left; margin-right: 10px;" /> |
-|3|Student-RG-954430| Area| AccumulatedCosts | Last 7 Days | Resource | Accumulated | <img src="./images/accumulated-resource-barchart.jpg" alt="Accumulated Resource Barchart" style="float: left; margin-right: 10px;" /> |
-|4|Student-RG-954430| Pie Chart | NA | Last Month | Service Name | NA | <img src="./images/service-name-piechart.jpg" alt="Service Name Piechart" style="float: left; margin-right: 10px;" /> |
-|5|Student-RG-954430| Pie Chart | NA | Last Month | Service Family | NA | <img src="./images/service-family-piechart.jpg" alt="Service Family Piechart" style="float: left; margin-right: 10px;" /> |
-|6|Student-RG-954430| Pie Chart | NA | Last Month | Product | NA | <img src="./images/product-piechart.jpg" alt="Product Piechart" style="float: left; margin-right: 10px;" /> |
+|1|Student-RG-954430| Column (Stacked) | DailyCosts | Last 7 Days | Resource | Daily | <img src="images/Screenshot-1.png" alt="dashbooard" title="image"> alt="Daily Cost Barchart" style="float: left; margin-right: 10px;" /> |
+|2|Student-RG-954430| Column (Stacked) | DailyCosts | Last 7 Days | Service | Daily | <img src="images/Screenshot-2.png" alt="Daily Cost Service-Barchart.jpg" style="float: left; margin-right: 10px;" /> |
+|3|Student-RG-954430| Area| AccumulatedCosts | Last 7 Days | Resource | Accumulated | <img src="images/Screenshot-3.png" alt="Accumulated Resource Barchart" style="float: left; margin-right: 10px;" /> |
+|4|Student-RG-954430| Pie Chart | NA | Last Month | Service Name | NA | <img src="images/Screenshot-4.png" alt="Service Name Piechart" style="float: left; margin-right: 10px;" /> |
+|5|Student-RG-954430| Pie Chart | NA | Last Month | Service Family | NA | <img src="images/Screenshot-5.png" alt="Service Family Piechart" style="float: left; margin-right: 10px;" /> |
+|6|Student-RG-954430| Pie Chart | NA | Last Month | Product | NA | <img src="images/Screenshot-6.png" alt="Product Piechart" style="float: left; margin-right: 10px;" /> |
 
 
 ## Part F - Create Customized Azure Dashboard
