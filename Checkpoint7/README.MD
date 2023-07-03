@@ -100,6 +100,8 @@ answer - sudo apt remove firewalld
 
 4. Run a command that shows the hostname in LR-XX and LX-XX. Embed the output in your submission.
 
+```
+
 ## Part D - Creating & Configuring VM Images - Using Portal
 
 
