@@ -8,6 +8,18 @@
 
 ### Table of Contents
 
-1. [Part A - Creating & Configuring VMs - Using Azure CLI Scripts](#header)
-2. [Part B - Basic Connectivity - Linux VMs Firewall Setting](#header)
-3. [Part C - Azure Cost Analysis Charts](#header)
+1. [Part A - Creating & Configuring VMs - Using Azure CLI Scripts](#Part-A---Creating-&-Configuring-VMs---Using-Azure-CLI-Scripts)
+2. [Part B - Basic Connectivity - Linux VMs Firewall Setting](#Part-B---Basic-Connectivity---Linux-VMs-Firewall-Setting)
+3. [Part C - Azure Cost Analysis Charts](#Part-C---Azure-Cost-Analysis-Charts)
+
+
+
+## Part A - Creating & Configuring VMs - Using Azure CLI Scripts
+
+
+## Part B - Basic Connectivity - Linux VMs Firewall Setting
+
+
+
+## Part C - Azure Cost Analysis Charts
+
