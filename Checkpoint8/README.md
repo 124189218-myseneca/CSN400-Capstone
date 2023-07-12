@@ -72,19 +72,43 @@ However, NIC can be saved from deletion if choosen so, they can reused in future
 answer 3- Azure offer an ease create or choose form existing NIC while creating a Vm. It offers extensive options for managing and creating resources and consideriing all those calling exiting NIC usage a limitation could be inaccurate.
 
 4. What rules did we add to Network Security Groups (NSG)? What does each rule do?
+answer - There three defined rules - AllowVnetInBound,DenyAllInBound and AllowAzureLoadBalancerInBound
+
+This rule successfully filters out all incoming network traffic that does not comply with any of the rules that came before it. The "DenyAll" rule, which provides a default refuse behaviour for unmatched traffic and prevents unauthorised access, is frequently seen at the conclusion of a security rule list.
+
+This rule successfully filters out all incoming network traffic that does not comply with any of the rules that came before it. The "DenyAll" rule, which provides a default refuse behaviour for unmatched traffic and prevents unauthorised access, is frequently seen at the conclusion of a security rule list.
+
 
 5. Run a command in CLI that lists all your Custom Images. Change the output format to table format and embed the answer in your submission.
+
+Name    ResourceGroup      Location       Zones
+------  -----------------  -------------  -------
+LR-106  STUDENT-RG-954430  canadacentral
+LS-106  STUDENT-RG-954430  canadacentral
+WC-106  STUDENT-RG-954430  canadacentral
+WS-106  STUDENT-RG-954430  canadacentral
+
+-------------
+
 6. Delete your VMs using the proper script after your work is completed. Run a command in CLI that lists all your VMs.
 
 7.Get a list of your VM, NSG, NIC, and Disks using Azure CLI in table format. Which ones are empty? Do not include screenshots, just embed the output in table format in your submission.
+
 
 ```
 ## Part B - Basic Connectivity - Linux VMs Firewall Setting
 ```
 Run commands that show the status of the Apache server and MariDB server in your LS-xx. Embed the output as a bash snippet.
 Run a command in LR-xx that show iptables chains. What is the default setting? How could you improve these settings to be less vulnerable to attacks?
+
+Attached file lr_iptables - 
+
+
 Run a command that shows the hostname in LR-XX and LX-XX and embed the output in your submission.
 Submit your lr_iptables.txt and ls_iptables.txt files. Do not embed them in your README.md, just add it in your folder and give a hyperlink.
+
+Attached file lr_iptables - 
+
 Test your firewall settings and your configurations for basic ssh and rdp connectivity between your Desktop Client and Linux Server LS-xx and Windows Server WS-xx a few times.
 
 ```
