@@ -78,9 +78,20 @@ answer 3- Azure offer an ease create or choose form existing NIC while creating 
 
 7.Get a list of your VM, NSG, NIC, and Disks using Azure CLI in table format. Which ones are empty? Do not include screenshots, just embed the output in table format in your submission.
 
+```
 ## Part B - Basic Connectivity - Linux VMs Firewall Setting
+```
+Run commands that show the status of the Apache server and MariDB server in your LS-xx. Embed the output as a bash snippet.
+Run a command in LR-xx that show iptables chains. What is the default setting? How could you improve these settings to be less vulnerable to attacks?
+Run a command that shows the hostname in LR-XX and LX-XX and embed the output in your submission.
+Submit your lr_iptables.txt and ls_iptables.txt files. Do not embed them in your README.md, just add it in your folder and give a hyperlink.
+Test your firewall settings and your configurations for basic ssh and rdp connectivity between your Desktop Client and Linux Server LS-xx and Windows Server WS-xx a few times.
 
-
+```
 
 ## Part C - Azure Cost Analysis Charts
+
+# Azure Cost Analysis Charts
+
+
 
