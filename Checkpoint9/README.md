@@ -16,9 +16,11 @@
 
 ## Part A – Logging and Analyzing DNS and HTTP Traffic
 
+### Screenshot of apache-iis-filtered.pcap
 
 ## Part B – Logging and Analyzing FTP and MySQL Traffic
 
+### Screenshot of ftp-mysql-filtered.pcap
 
 ## Part C – Adjusting firewalls to `DROP` and `LOG` Traffic
 
