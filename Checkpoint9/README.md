@@ -10,5 +10,5 @@
 
 1. [Part A – Logging and Analyzing DNS and HTTP Traffic](#Part-A-–-Logging-and-Analyzing-DNS-and-HTTP-Traffic)
 2. [Part B – Logging and Analyzing FTP and MySQL Traffic](#Part-B-–-Logging-and-Analyzing-FTP-and-MySQL-Traffic)
-3. [Part C – Adjusting firewalls to DROP and LOG Traffic](#header3)
-4. [Part D - Azure Cost Analysis Charts](#haeder4)
+3. [Part C – Adjusting firewalls to DROP and LOG Traffic](#Part-C-–-Adjusting-firewalls-to-DROP-and-LOG-Traffic)
+4. [Part D - Azure Cost Analysis Charts](#Part-D---Azure-Cost-Analysis-Charts)
