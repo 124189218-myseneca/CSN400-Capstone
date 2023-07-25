@@ -58,3 +58,9 @@ A packet with a source port matching SSH and an ID number in the IP packet info 
 |5|Student-RG-954430| Pie Chart | NA | Last Month | Service Family | NA | <img src="images/PARTD/Screenshot-5.png" alt="Service Family Piechart" style="float: left; margin-right: 10px;" /> |
 |6|Student-RG-954430| Pie Chart | NA | Last Month | Product | NA | <img src="images/PARTD/Screenshot-6.png" alt="Product Piechart" style="float: left; margin-right: 10px;" /> |
 
+
+
+
+## DASHBOARD
+
+<img src="images/dashboard.png" alt="Dashboard" style="float: left; margin-right: 10px;" />
