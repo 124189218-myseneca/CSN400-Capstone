@@ -63,4 +63,4 @@ A packet with a source port matching SSH and an ID number in the IP packet info 
 
 ## DASHBOARD
 
-<img src="images/dashboard.png" alt="Dashboard" style="float: left; margin-right: 10px;" />
+<img src="images/Dashboard.png" alt="dashboard" style="float: left; margin-right: 10px;" />
