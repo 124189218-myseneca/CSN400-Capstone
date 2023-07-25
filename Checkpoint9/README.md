@@ -18,9 +18,13 @@
 
 ### Screenshot of apache-iis-filtered.pcap
 
+<img src="images/PARTA.png" alt="PART-A" title="image">
+
 ## Part B – Logging and Analyzing FTP and MySQL Traffic
 
 ### Screenshot of ftp-mysql-filtered.pcap
+
+<img src="images/PARTB.png" alt="PART-B" title="image">
 
 ## Part C – Adjusting firewalls to `DROP` and `LOG` Traffic
 
