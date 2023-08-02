@@ -126,6 +126,9 @@ iptables -nvL --line
 
 ## Part C - Logging & Isolating Masqueraded Packets
 
+### Screenshot of marked and isolated packets in masqueraded-capture.pcap
+
+<img src="images/masqueraded-image.png" alt="dashbooard" title="image" alt="Daily Cost Barchart" style="float: left; margin-right: 10px;" />
 
 
 ## Part D - Azure Cost Analysis Charts
