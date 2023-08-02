@@ -77,6 +77,53 @@ iptables -t nat -A PREROUTING -p tcp --dport 13106 -j DNAT --to-destination 172.
 
 ```
 
+### firewalls-cp10.sh
+
+```
+# allow custom port for partner Apache Server
+iptables -A FORWARD -p tcp -s 10.31.124.0/24 -d 192.168.130.36 --dport 18130 -j ACCEPT
+iptables -A FORWARD -p tcp -s 192.168.130.36 -d 10.31.124.0/24 --sport 18130 -j ACCEPT
+
+# allow custom port for partner MySQL Server
+iptables -A FORWARD -p tcp -s 10.31.124.0/24 -d 192.168.130.36 --dport 16130 -j ACCEPT
+iptables -A FORWARD -p tcp -s 192.168.130.36 -d 10.31.124.0/24 --sport 16130 -j ACCEPT
+
+# allow custom port for partner IIS Server
+iptables -A FORWARD -p tcp -s 10.31.124.0/24 -d 192.168.130.36 --dport 19130 -j ACCEPT
+iptables -A FORWARD -p tcp -s 192.168.130.36 -d 10.31.124.0/24 --sport 19130 -j ACCEPT
+
+# allow custom port for partner Windows Server RDP
+iptables -A FORWARD -p tcp -s 10.31.124.0/24 -d 192.168.130.36 --dport 13130 -j ACCEPT
+iptables -A FORWARD -p tcp -s 192.168.130.36 -d 10.31.124.0/24 --sport 13130 -j ACCEPT
+
+# allow custom port88130 for partner Linux Server SSH
+iptables -A FORWARD -p tcp -s 10.31.124.0/24 -d 192.168.130.36 --dport 12130 -j ACCEPT
+iptables -A FORWARD -p tcp -s 192.168.130.36 -d 10.31.124.0/24 --sport 12130 -j ACCEPT
+
+# allow partner traffic after NAT mapping
+#HTTP
+iptables -A FORWARD -p tcp -s 192.168.130.36 --dport 80 -j ACCEPT
+iptables -A FORWARD -p tcp -d 192.168.130.36 --sport 80 -j ACCEPT
+# SSH
+iptables -A FORWARD -p tcp -s 192.168.130.36 --dport 22 -j ACCEPT
+iptables -A FORWARD -p tcp -d 192.168.130.36 --sport 22 -j ACCEPT
+# RDP
+iptables -A FORWARD -p tcp -s 192.168.130.36 --dport 3389 -j ACCEPT
+iptables -A FORWARD -p tcp -d 192.168.130.36 --sport 3389 -j ACCEPT
+#MySQL
+iptables -A FORWARD -p tcp -s 192.168.130.36 --dport 3306 -j ACCEPT
+iptables -A FORWARD -p tcp -d 192.168.130.36 --sport 3306 -j ACCEPT
+
+# to DROP all traffic which is not explicitly allowed by firewall rules
+iptables -A FORWARD -j DROP
+
+# list the updated iptables
+iptables -nvL --line
+
+
+```
+
+
 ## Part C - Logging & Isolating Masqueraded Packets
 
 
