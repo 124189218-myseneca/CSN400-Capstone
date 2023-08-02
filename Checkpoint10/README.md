@@ -1,4 +1,4 @@
-# Checkpoint8 Submission
+# Checkpoint10 Submission
 
 - **COURSE INFORMATION: CSN400NDD**
 - **STUDENT’S NAME: Ashwin Dhingra**
@@ -16,7 +16,7 @@
 
 
 
-## ✨ Part A - Route Table Updates
+## Part A - Route Table Updates
 
 ### Lists all your Route Tables, Routes, and Associated Subnets
 
@@ -51,7 +51,7 @@ AddressPrefix      HasBgpOverride    Name          NextHopIpAddress    NextHopTy
 ```
 
 
-## ✨ Part B - Port Forwarding Basic Connectivity
+## Part B - Port Forwarding Basic Connectivity
 
 ### nat_basic-connectivity.sh
 
@@ -77,8 +77,8 @@ iptables -t nat -A PREROUTING -p tcp --dport 13106 -j DNAT --to-destination 172.
 
 ```
 
-## ✨ Part C - Logging & Isolating Masqueraded Packets
+## Part C - Logging & Isolating Masqueraded Packets
 
 
 
-## ✨ Part D - Azure Cost Analysis Charts
+## Part D - Azure Cost Analysis Charts
